@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.example.todo.model.CategoryEntity" table="category" schema="public" catalog="todo">
+        <id name="id" column="id"/>
+        <property name="name" column="name"/>
+    </class>
+    <class name="com.example.todo.model.ItemEntity" table="item" schema="public" catalog="todo">
+        <id name="id" column="id"/>
+        <property name="text" column="text"/>
+    </class>
+</hibernate-mapping>
