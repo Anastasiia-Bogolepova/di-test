@@ -4,11 +4,11 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="com.example.todo.model.CategoryEntity" table="category" schema="public" catalog="todo">
+    <class name="com.example.todo.model.Category" table="category" schema="public" catalog="todo">
         <id name="id" column="id"/>
         <property name="name" column="name"/>
     </class>
-    <class name="com.example.todo.model.ItemEntity" table="item" schema="public" catalog="todo">
+    <class name="com.example.todo.model.Item" table="item" schema="public" catalog="todo">
         <id name="id" column="id"/>
         <property name="text" column="text"/>
     </class>
